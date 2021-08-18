@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap');
+
+:root{
+    --primary-color: #F4D03F;
+    --secondary-color: #2471A3;
+    --tertiary-color: #CACFD2;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Nova Oval', cursive;
+}
+h1{
+    background-color: var(--primary-color);
+    font-size: 3.3rem;
+    color: var(--secondary-color);
+    padding:1.5rem;
+    margin: 1rem;
+    font-weight: 50%;
+    text-align: center;
+    display: flexbox;
+}
+h3{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding:1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+textarea{
+    width:50%;
+    height:15vh;
+    border-color: var(--tertiary-color); 
+    border-radius: 5rem;
+    border-width: 0.5rem;
+    padding: 1rem 1rem;
+    font-size: 35px;
+    margin: 0rem;
+    text-align: center;
+}
+
+.output{
+    width:50%;
+    height:15vh;
+    border-style: solid;
+    border-color: var(--tertiary-color); 
+    border-radius: 5rem;
+    border-width: 0.5rem;
+    padding:1rem 1rem;
+    background-color: white;
+    font-size: 35px;   
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+}
+
+.center{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.seg{
+    background: url('/images/background.jpg') center center/cover;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0rem;
+}
+
+
+h2{
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin: 0rem;
+}
+
+.button{
+    background-color:var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 1rem 1rem;
+    padding: 1rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+
+}

@@ -50,8 +50,6 @@ textarea{
     padding:1rem 1rem;
     background-color: white;
     font-size: 35px;   
-    margin-bottom: 0rem;
-    margin-top: 1rem;
 }
 
 .center{
@@ -86,9 +84,8 @@ h2{
     color: var(--secondary-color);
     font-size: 30px;
     font-weight: bold;
-    margin: 1rem 1rem;
     padding: 1rem;
     border-top-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
-
+    margin: 1rem;
 }

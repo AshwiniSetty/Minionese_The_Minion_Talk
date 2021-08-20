@@ -10,15 +10,13 @@ body{
     margin: 0px;
     font-family: 'Nova Oval', cursive;
 }
-h1{
+.head{
     background-color: var(--primary-color);
     font-size: 3.3rem;
     color: var(--secondary-color);
-    padding:1.5rem;
-    margin: 1rem;
+    margin-bottom: 1rem;
     font-weight: 50%;
     text-align: center;
-    display: flexbox;
 }
 h3{
     background-color: var(--primary-color);
@@ -31,7 +29,7 @@ h3{
 
 textarea{
     width:50%;
-    height:15vh;
+    height:10vh;
     border-color: var(--tertiary-color); 
     border-radius: 5rem;
     border-width: 0.5rem;
@@ -43,7 +41,7 @@ textarea{
 
 .output{
     width:50%;
-    height:15vh;
+    height:10vh;
     border-style: solid;
     border-color: var(--tertiary-color); 
     border-radius: 5rem;
